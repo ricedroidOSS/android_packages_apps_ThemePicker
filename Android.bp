@@ -66,12 +66,16 @@ android_library {
     name: "ThemePicker_core",
 
     static_libs: [
+        "androidx.lifecycle_lifecycle-runtime-ktx",
+        "kotlinx_coroutines_android",
+        "kotlinx_coroutines",
         "wallpaper-common-deps",
         "SettingsLibSettingsTheme",
         "SystemUIFlagsLib",
         "SystemUI-statsd",
         "styleprotoslite",
         "monet",
+        "vendor_support",
     ],
 
     optimize: {
