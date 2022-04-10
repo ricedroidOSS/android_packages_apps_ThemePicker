@@ -77,6 +77,10 @@ android_app {
         "SystemUIFlagsLib",
         "SystemUI-statsd",
         "styleprotoslite",
+        "androidx.lifecycle_lifecycle-runtime-ktx",
+        "kotlinx_coroutines_android",
+        "kotlinx_coroutines",
+        "vendor_support",
     ],
 
     jni_libs: [
