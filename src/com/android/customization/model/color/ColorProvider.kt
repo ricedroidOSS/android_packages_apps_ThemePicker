@@ -54,7 +54,7 @@ class ColorProvider(context: Context, stubPackageName: String) :
         ResourcesApkProvider(context, stubPackageName), ColorOptionsProvider {
 
     companion object {
-        const val themeStyleEnabled = true
+        const val themeStyleEnabled = false
         val styleSize = if (themeStyleEnabled) Style.values().size else 1
         private const val TAG = "ColorProvider"
         private const val MAX_SEED_COLORS = 4
